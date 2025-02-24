@@ -1,0 +1,17 @@
+<header class="site-header">
+  <div class="wrapper site-header__wrapper">
+    <a href="/" class="brand">Q & A</a>
+    <nav class="nav">
+      <button class="nav__toggle" aria-expanded="false" type="button">
+        メニュー
+      </button>
+      <ul class="nav__wrapper">
+        <li class="nav__item"><%= link_to '一覧表示', questions_path %></li>
+        <li class="nav__item"><%= link_to '新規質問', new_question_path %></li>
+        <li class="nav__item"><a href="#">Services</a></li>
+        <li class="nav__item"><a href="#">Hire us</a></li>
+        <li class="nav__item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
